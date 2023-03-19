@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
+
 * {
     margin: 0;
     padding: 0;
@@ -25,10 +26,32 @@
     position: relative;
     width: 700px;
 }
+.photo-gallery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+.main-photo {
+    width: 700px;
+    height: 525px;
+    border: 1px solid gray;
+}
+
+.photo-boxes {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
 
 .photo-box {
     width: 100px;
     height: 75px;
+
+
 
 
 }
@@ -37,6 +60,7 @@
     width: 100px;
     height: 75px;
     object-fit: cover;
+
 
 }
 
@@ -108,4 +132,27 @@
     height: 525px;
     /* border: 1px solid gray; */
     background-color: bisque;
+
+    
+}
+
+.photo-box {
+    transition: all 250ms ease-in;
+}
+.photo-box:hover {
+    transform: scale(1.5)
+    
+}
+
+.photo-box:checked + img {
+    border: 10px solid red;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-input + .photo-box img{
+    background-color: #D65D5D;
+    border-radius: 5px; 
 }
