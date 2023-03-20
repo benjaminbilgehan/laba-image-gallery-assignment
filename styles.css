@@ -26,11 +26,12 @@
     position: relative;
     width: 700px;
 }
+
 .photo-gallery-container {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -42,26 +43,22 @@
 
 .photo-boxes {
     display: flex;
-    justify-content:space-between;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
 }
 
-.photo-box {
-    width: 100px;
-    height: 75px;
+/* photo-1 starts  ******************************************************************/
 
-
-
-
-}
-
-.photo-box img {
-    width: 100px;
-    height: 75px;
-    object-fit: cover;
-
-
+.cbox-1:checked~label .big-photo-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/30/700/525");
 }
 
 .photo-box-01 {
@@ -76,83 +73,156 @@
 }
 
 .photo-box-01:hover img {
-
     transform: scale(1.5);
-
-
 }
 
 .cbox-div {
     width: 100px;
     height: 75px;
-    background-color: blueviolet;
 }
 
 .cbox-1 {
     display: none;
 }
 
-.bg-1 {
-    background-color: aqua;
+/* photo-1 ends  ******************************************************************/
+
+
+/* photo-2 start******************************************************************/
+
+.photo-box-02 {
+    order: 2;
 }
 
-.cbox-1:checked~label .big-photo-1::after {
-
-
-    content: "";
-    position: absolute;
-    top: 0px;
-    width: 700px;
-    height: 525px;
-    /* border: 1px solid red; */
-
-
-    background-image: url("/images/glad-enthusiastic-bearded-man-keeps-hands-up-celebrates-triumph-wears-stylish-clothes-700x525.jpg");
-    background-color: violet
-}
-
-
-.cbox-1:checked~label .bg-1 {
-
-
-    background-color: violet
-}
-
-
-
-.main-photo-1 {
-
-    background-color: chartreuse;
-}
-
-
-.main-photo {
-
-    width: 708px;
-    height: 525px;
-    /* border: 1px solid gray; */
-    background-color: bisque;
-
-    
-}
-
-.photo-box {
-    transition: all 250ms ease-in;
-}
-.photo-box:hover {
-    transform: scale(1.5)
-    
-}
-
-.photo-box:checked + img {
-    border: 10px solid red;
-}
-
-.toggle-input {
+.cbox-2 {
     display: none;
 }
 
-.toggle-input + .photo-box img{
-    background-color: #D65D5D;
-    border-radius: 5px; 
+.cbox-2:checked~label .big-photo-2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/48/700/525");
+}
+
+/* photo-2 ends******************************************************************/
+
+
+/* photo-3 start******************************************************************/
+.photo-box-03 {
+    order: 2;
+}
+
+.cbox-3 {
+    display: none;
+}
+
+.cbox-3:checked~label .big-photo-3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/58/700/525");
+}
+
+/* photo-3 ends******************************************************************/
+
+/* photo-4 start******************************************************************/
+.photo-box-04 {
+    order: 2;
+}
+
+.cbox-4 {
+    display: none;
+}
+
+.cbox-4:checked~label .big-photo-4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/64/700/525");
+
+}
+
+/* photo-4 ends******************************************************************/
+
+/* photo-5 start******************************************************************/
+.photo-box-05 {
+    order: 2;
+}
+
+.cbox-5 {
+    display: none;
+}
+
+.cbox-5:checked~label .big-photo-5::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/96/700/525");
+
+}
+
+/* photo-5 ends*****************************************************************/
+
+/* photo-6 start******************************************************************/
+.photo-box-06 {
+    order: 2;
+}
+
+.cbox-6 {
+    display: none;
+}
+
+.cbox-6:checked~label .big-photo-6::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/119/700/525");
+
+}
+
+/* photo-6 ends*/
+
+/* photo-7 start*/
+.photo-box-07 {
+    order: 2;
+}
+
+.cbox-7 {
+    display: none;
+}
+
+.cbox-7:checked~label .big-photo-7::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: 525px;
+    background-image: url("https://picsum.photos/id/133/700/525");
+
+}
+
+/* photo-7 ends*/
+
+
+.main-photo {
+    width: 708px;
+    height: 525px;
+    background-color: bisque;
 }
