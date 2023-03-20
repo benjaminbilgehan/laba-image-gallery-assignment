@@ -63,7 +63,7 @@
 
 .photo-box-01 {
     width: 100px;
-    height: 75px;
+    /* height: 75px; */
     overflow: hidden;
     order: 2;
 }
