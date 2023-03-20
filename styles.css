@@ -108,6 +108,15 @@
     background-image: url("https://picsum.photos/id/48/700/525");
 }
 
+.photo-box-02:hover img {
+    transform: scale(1.5);
+
+}
+
+.photo-box-02 img {
+    transition: transform 2s ease 0.2s;
+}
+
 /* photo-2 ends******************************************************************/
 
 
