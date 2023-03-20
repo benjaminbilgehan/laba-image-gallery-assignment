@@ -139,6 +139,16 @@
     background-image: url("https://picsum.photos/id/58/700/525");
 }
 
+
+.photo-box-03:hover img {
+    transform: scale(1.5);
+
+}
+
+.photo-box-03 img {
+    transition: transform 2s ease 0.2s;
+}
+
 /* photo-3 ends******************************************************************/
 
 /* photo-4 start******************************************************************/
@@ -159,6 +169,15 @@
     height: 525px;
     background-image: url("https://picsum.photos/id/64/700/525");
 
+}
+
+.photo-box-04:hover img {
+    transform: scale(1.5);
+
+}
+
+.photo-box-04 img {
+    transition: transform 2s ease 0.2s;
 }
 
 /* photo-4 ends******************************************************************/
@@ -183,6 +202,15 @@
 
 }
 
+.photo-box-05:hover img {
+    transform: scale(1.5);
+
+}
+
+.photo-box-05 img {
+    transition: transform 2s ease 0.2s;
+}
+
 /* photo-5 ends*****************************************************************/
 
 /* photo-6 start******************************************************************/
@@ -205,6 +233,15 @@
 
 }
 
+.photo-box-06:hover img {
+    transform: scale(1.5);
+
+}
+
+.photo-box-06 img {
+    transition: transform 2s ease 0.2s;
+}
+
 /* photo-6 ends*/
 
 /* photo-7 start*/
@@ -225,6 +262,15 @@
     height: 525px;
     background-image: url("https://picsum.photos/id/133/700/525");
 
+}
+
+.photo-box-07:hover img {
+    transform: scale(1.5);
+
+}
+
+.photo-box-07 img {
+    transition: transform 2s ease 0.2s;
 }
 
 /* photo-7 ends*/
