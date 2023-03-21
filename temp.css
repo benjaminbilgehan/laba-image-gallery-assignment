@@ -1,0 +1,7 @@
+.menu--toggle-1:checked~.menu--body-1 {
+    display: none;
+}
+
+.menu--toggle-2:checked~.menu--body-2 {
+    display: none;
+}
